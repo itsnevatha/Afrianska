@@ -183,6 +183,7 @@ footer{
 }
 .copy-para p{
     color: rgba(255, 255, 255, 0.406);
+    padding: 2rem 0;
 }
 .middle-content p{
     color: rgba(255, 255, 255, 0.406);
@@ -302,7 +303,7 @@ footer{
         font-size: 55px;
     }
     .banner-content p{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         line-height: 35px;
     }
     footer{
@@ -412,6 +413,7 @@ footer{
     .main-list{
         display: grid;
         grid-template-columns: 2fr 1fr 1fr;
+        gap: 2rem;
     }
     .common-main h6{
         margin-top: unset;
@@ -421,5 +423,11 @@ footer{
     }
     .header-section{
         margin: 1rem 0;
+    }
+    .footer-overall p{
+        line-height: 3rem;
+    }
+    p{
+        font-size: 19px;
     }
 }
